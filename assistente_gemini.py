@@ -1,7 +1,7 @@
 import google.generativeai as genai
 
 # Substitua com sua chave
-genai.configure(api_key="Coloque-sua-chave")
+genai.configure(api_key="AIzaSyARgMpwBtSAnMeavMMVusZsgQvrTfPzHwU")
 
 # Criar o modelo (gemini-pro funciona com texto)
 model = genai.GenerativeModel(model_name="models/gemini-1.5-pro-latest")
